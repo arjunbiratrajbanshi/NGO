@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&family=Roboto&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// navbar css starts---------------------------------------------------------------------------------------------------
+.navbar {
+  .navbar-nav {
+    li {
+      a:hover {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: large;
+      }
+    }
+  }
+}
+
+
+// navbar css ends---------------------------------------------------------------------------------------------------
+
+#bc {
+  background-color: #7EAE0D;
+}
+
+.primary-button {
+  background-color: #7EAE0D;
+  padding: 6px 11px;
+  border-radius: 9px;
+  text-decoration: none;
+  color: white;
+}
+
+.primary-button a:hover {
+  color: white;
+}
+
+// about section css start---------------------------------------------------------------------------------------------------
+#about {
+  background-color: #F4F4F8;
+  margin-top: 0rem;
+}
+
+// about section css ends---------------------------------------------------------------------------------------------------
+
+
+
+// what we do css starts --------------------------------------------------------------------------------------------------
+@media (min-width:600px) and (max-width:1280px) {
+  #test {
+    padding: 0rem 11rem;
+    margin-top: 4rem;
+    margin-bottom: 0px;
+  }
+}
+
+#more {
+  background-color: #F6F8FA;
+
+  svg {
+    color: #7EAE0D;
+  }
+
+  svg:hover {
+    color: darkcyan;
+  }
+
+  svg:visited {
+    color: darkcyan;
+  }
+
+  p {
+    font-size: medium;
+    align-items: center;
+  }
+
+  i {
+    padding-left: 6px;
+    color: #7EAE0D;
+  }
+}
+
+#forb:hover {
+  border-bottom: 2px solid #7EAE0D;
+  padding-top: 9px;
+}
+
+#more {
+  strong {
+    color: #7EAE0D;
+  }
+
+  strong:hover {
+    color: darkcyan;
+  }
+
+  i:hover {
+    color: darkcyan;
+  }
+}
+
+// what we do css ends---------------------------------------------------------------------------------------------------
+
+
+
+//number css begins---------------------------------------------------------------------------------------------------
+.number {
+  padding: 10px;
+  align-items: center;
+  display: flex;
+  border: 1px solid grey;
+  border-radius: 20px;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-top: 3rem;
+}
+
+@media (min-width:280px) and (max-width:1200px) {
+  .number {
+    padding: 3px 5px;
+  }
+}
+
+
+.number svg {
+  color: #7EAE0D;
+}
+
+.number svg:hover {
+  color: grey;
+}
+
+// number section css ends here---------------------------------------------------------------------------------------------------
+
+// cause section css starts---------------------------------------------------------------------------------------------------
+@media (min-width:600px) and (max-width:1280px) {
+  #causep {
+    padding: 0rem 11rem;
+    margin-top: 4rem;
+    margin-bottom: 0px;
+  }
+}
+// cause section css ends---------------------------------------------------------------------------------------------------
+
+// blog section css starts---------------------------------------------------------------------------------------------------
+#cb img {
+  border-radius: 20px;
+}
+
+#cb {
+  border: none;
+}
+
+@media (min-width:600px) and (max-width:1280px) {
+  #blogp {
+    padding: 0rem 11rem;
+    margin-top: 3rem;
+    margin-bottom: 0px;
+  }
+}
+
+
+// blog section css ends---------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+#fja {
+  background-color: green;
+}
+
+
+// footer css---------------------------------------------------------------------------------------------------
+#footertoptop {
+  background-color: #7EAE0D;
+  margin-bottom: 0rem;
+
+// for black bottom
+  @media (min-width:280px) and (max-width:1000px)
+  {
+    #b{margin-bottom: 3rem;}
+  }
+
+
+  #fttrm
+   {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  #fttp{font-size: medium; margin-right: 2rem;}
+  .icon-rounded
+  {
+    padding: 9px;
+    margin: 2rem 1rem;
+    background-color: #F4F4F8;
+    border-radius: 50px 50px;
+    svg{color: #7EAE0D; padding: 3px; align-items: center;}
+    svg:hover{color: darkcyan;}
+  }
+}
+
+
+
+#wtb {
+  color: #7EAE0D;
+}
+
+#footer {
+  background-color: #1F1D1B;
+  padding-top: 1rem;
+}
+
+#frb {
+  padding-left: 3rem;
+}
+
+#fpt {
+  color: #8A847C;
+}
+
+#frb {
+  border-bottom: 1px solid grey;
+}
+
+.social-links {
+  a {
+    svg {
+      padding: 5px;
+    }
+  }
+}
+
+.social-links {
+  a {
+    svg {
+      color: #8A847C;
+    }
+  }
+}
+
+.social-links {
+  a {
+    svg:hover {
+      color: green;
+    }
+  }
+}
+
+// footer css---------------------------------------------------------------------------------------------------
+
+
+// Card Css start---------------------------------------------------------------------------------------------------
+.card {
+  border-radius: 9px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+  transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+
+  cursor: pointer;
+}
+
+.card:hover {
+  border-color: #7EAE0D;
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+}
+
+@media (min-width:280px) and (max-width:1000px)
+{
+.card{margin-bottom: 2rem;}
+}
+
+// Card Css ends ---------------------------------------------------------------------------------------------------
+
+#forc {
+  background-color: #F6F8FA;
+}
